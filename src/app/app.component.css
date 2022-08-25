@@ -1,0 +1,13 @@
+h1{
+    color: red;
+}
+.special{
+    color:blue;
+    border: 3px solid red;
+}
+.active{
+    background-color:blue ;
+}
+.inactive{
+    background-color: green;
+}
