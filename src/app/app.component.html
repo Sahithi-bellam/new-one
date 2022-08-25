@@ -90,5 +90,7 @@ City: <input type="text" [(ngModel)]="city">
 <p>{{person | json}}</p>
 <p>{{dob | date : 'dd-MM-yyyy'}}</p>
 <p>{{num | percent}}</p>
-<p>{{n | slice:2:100}}</p>-->
-<h1>{{wish | test:'param1':'param2'}}</h1>
+<p>{{n | slice:2:100}}</p>
+<h1>{{wish | test:'param1':'param2'}}</h1>-->
+<input type="text" placeholder="Enter email" #e value="abc@gmail.com">
+<div>{{e.value}}</div>
